@@ -364,6 +364,10 @@ PRODUCT_PACKAGES += \
     PresencePolling \
     RcsService
 
+# Performance
+PRODUCT_PACKAGES += \
+    powerctl
+
 # RIL
 PRODUCT_PACKAGES += \
     libjson \
