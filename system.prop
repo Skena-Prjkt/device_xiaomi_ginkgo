@@ -46,6 +46,13 @@ ro.lmk.filecache_min_kb=153600
 ro.lmk.kill_timeout_ms=50
 ro.lmk.stall_limit_critical=40
 
+# Battery Saving
+ro.vendor.use_data_netmgrd=true 
+ro.vold.umsdirtyratio=20 
+ro.ril.disable.power.collapse=0 
+power.saving.mode=1
+pm.sleep_mode=1
+
 # Media
 debug.stagefright.ccodec=1
 debug.stagefright.omx_default_rank=0
