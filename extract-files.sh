@@ -62,6 +62,9 @@ function blob_fixup() {
         vendor/lib/miwatermark.so)
             patchelf --add-needed "libpiex_shim.so" "${2}"
             ;;
+        vendor/lib/hw/camera.trinket.so)
+            "${PATCHELF}" --remove-needed "android.hidl.base@1.0.so" "${2}"
+            ;;
     esac
 }
 
