@@ -201,7 +201,8 @@ PRODUCT_PACKAGES += \
 
 PRODUCT_PACKAGES += \
     libhidltransport.vendor \
-    libhwbinder.vendor
+    libhwbinder.vendor \
+    fastcharge.sh
 
 # IMS
 PRODUCT_PACKAGES += \
