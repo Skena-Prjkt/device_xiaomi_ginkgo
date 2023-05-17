@@ -202,6 +202,9 @@ drm.service.enabled=true
 # Disable Skia tracing by default
 debug.hwui.skia_atrace_enabled=false
 
+# FS-verity
+ro.apk_verity.mode=2
+
 # FRP
 ro.frp.pst=/dev/block/bootdevice/by-name/frp
 
