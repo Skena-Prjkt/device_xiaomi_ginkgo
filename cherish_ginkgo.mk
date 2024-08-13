@@ -26,11 +26,8 @@ $(call inherit-product, device/xiaomi/ginkgo/device.mk)
 # Inherit some common Cherish stuff.
 $(call inherit-product, vendor/cherish/config/common_full_phone.mk)
 
-# CherishOS
-CHERISH_BUILD_TYPE=OFFICIAL
-
 # Maintainer
-CHERISH_MAINTAINER := Agatha
+CHERISH_MAINTAINER := Skena
 
 # Cherish Flags
 CHERISH_CHIPSET := SDM665
